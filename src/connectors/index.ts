@@ -3,7 +3,7 @@ import { InjectedConnector } from '@web3-react/injected-connector'
 import { WalletConnectConnector } from '@web3-react/walletconnect-connector'
 import { WalletLinkConnector } from '@web3-react/walletlink-connector'
 import { PortisConnector } from '@web3-react/portis-connector'
-import { ChainId } from '@pancakeswap-libs/sdk'
+
 import { FortmaticConnector } from './Fortmatic'
 import { NetworkConnector } from './NetworkConnector'
 
@@ -11,10 +11,6 @@ const NETWORK_URL = process.env.REACT_APP_NETWORK_URL
 const FORMATIC_KEY = process.env.REACT_APP_FORTMATIC_KEY
 const PORTIS_ID = process.env.REACT_APP_PORTIS_ID
 
-const V1_FACTORY_ADDRESSES: { [chainId in ChainId]: string } = {
-  [ChainId.MAINNET]: '0xC07d4604400139108BbdB3076636365A385879eF', //TODO
-  [ChainId.BSCTESTNET]: '0x10ED43C718714eb63d5aA57B78B54704E256024E'
-}
 
 
 export const NETWORK_CHAIN_ID: number = parseInt(process.env.REACT_APP_CHAIN_ID ?? '56')
