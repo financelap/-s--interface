@@ -3,7 +3,7 @@ import { AbstractConnector } from '@web3-react/abstract-connector'
 
 import { fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
 
-export const ROUTER_ADDRESS = '0x488459d082b306Eb524Ee74909aA3C57E6E691aC'
+export const ROUTER_ADDRESS = '0xeC23a4f226812BbE37988f056C0CBc8d9a537CD5'
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 
@@ -25,9 +25,9 @@ export const AVERAGE_BLOCK_TIME_IN_SECS = 14
 export const PROPOSAL_LENGTH_IN_BLOCKS = 40_320
 export const PROPOSAL_LENGTH_IN_SECS = AVERAGE_BLOCK_TIME_IN_SECS * PROPOSAL_LENGTH_IN_BLOCKS
 
-export const GOVERNANCE_ADDRESS = '0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F'
+export const GOVERNANCE_ADDRESS = '0xeC23a4f226812BbE37988f056C0CBc8d9a537CD5'
 
-export const TIMELOCK_ADDRESS = '0x1a9C8182C09F50C8318d769245beA52c32BE35BC'
+export const TIMELOCK_ADDRESS = '0xeC23a4f226812BbE37988f056C0CBc8d9a537CD5'
 
 const KWIK_ADDRESS = '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984'
 export const KWIK: { [chainId in ChainId]: Token } = {
